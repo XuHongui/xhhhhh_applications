@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    color: rgb(245,245,249);
+    background-color: #f5f5f9;;
+}
+:root:root{
+    --adm-color-primary: rgb(20,211,122);
+}
+.chatHeader{
+    background-color: rgb(20,211,122);
+    color: white;
+}
+.chat-me{
+    text-align: right;
+}
+
+.errorMsg{
+    color: red;
+}
+.adm-tab-bar{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+}
+
+.navHeader{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0px;
+}
+
+.context{
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.chatContent.adm-form{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+    --font-size: 22px
+}
+.chatList{
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
